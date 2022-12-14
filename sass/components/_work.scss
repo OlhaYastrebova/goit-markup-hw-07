@@ -1,0 +1,40 @@
+.work{
+    padding-top: 0;
+
+&__container{
+@extend %container;
+}
+&__title{
+@extend %section-title;
+}}
+
+.work__list{
+@extend %list;
+}
+.work__item{
+    @extend %item; 
+    position: relative;
+     
+&:first-child{
+    margin-left: 0;
+}
+&:last-child{
+    margin-right: 0;
+    }}
+.work__label{
+    @extend %content-position;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 70px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $primary-white-color;
+        background: rgba(47, 48, 58, 0.8);
+      }
+

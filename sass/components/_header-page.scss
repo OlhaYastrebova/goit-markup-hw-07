@@ -1,0 +1,21 @@
+
+.header{
+border-bottom: 1px solid $header-border-color;
+
+&__container {
+       width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    }
+
+&__page{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+}
+    
+    
+
+
